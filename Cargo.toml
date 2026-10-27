@@ -1,0 +1,19 @@
+[package]
+name = "bancada"
+version = "0.1.0"
+edition = "2026"
+authors = ["Vítor Feijó <vitorsfeijo@gmail.com>"]
+description = "A opensource rust-based harness for locally run llm's"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[profile.release]
+opt-level = 3
+lto = true

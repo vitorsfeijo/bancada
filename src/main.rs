@@ -1,7 +1,9 @@
 use std::io;
+mod banner/banner
 
 fn main() {
-    println!("Digite ls");
+
+    start();
 
     let mut entrada = String::new();
 

@@ -32,5 +32,6 @@ Bancada é um harness de terminal em Rust para modelos locais servidos pelo Olla
 ## Verificação
 
 - Inspecione os arquivos existentes antes de sugerir alterações.
+- O agente pode executar o comando `cargo build` (ou `cargo check`) para inspecionar erros e warnings de compilação.
 - Quando pertinente e permitido pelo ambiente, use verificações que não reescrevam o código-fonte. Não execute comandos que apliquem correções ou formatação automaticamente.
 - Não afirme que exemplos foram compilados, que testes passaram ou que arquivos foram alterados sem ter verificado isso.

@@ -1,11 +1,17 @@
-use std::io
+use std::io;
 
 fn main() {
     println!("Digite ls");
 
     let mut entrada = String::new();
 
-    stdin().read_line(&mut entrada).expect("Falhar a ler");
+    io::stdin().read_line(&mut entrada).expect("Falhar a ler");
 
-    if()
+    entrada = entrada.trim().to_string();
+
+    if entrada == "ls" {
+        println!("ls feito com sucesso");
+    } else {
+        println!("você digitou {}", entrada);
+    }
 }

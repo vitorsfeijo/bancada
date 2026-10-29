@@ -1,9 +1,11 @@
+mod ui;
+
 use std::io;
-mod banner/banner
+
 
 fn main() {
 
-    start();
+    ui::banner::start();
 
     let mut entrada = String::new();
 
